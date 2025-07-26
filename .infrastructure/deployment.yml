@@ -12,8 +12,6 @@ spec:
       app: todoapp
   template:
     metadata:
-      name: todoapp
-      namespace: todoapp
       labels:
         app: todoapp
     spec:

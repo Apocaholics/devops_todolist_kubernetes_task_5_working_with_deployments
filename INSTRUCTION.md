@@ -28,5 +28,5 @@ kubectl get hpa -n mateapp
 ## If you want to get access to the app after deployment, you can use this command:
 
 ```bash
-kubectl port-forward deployment/deployment-service 8080:80 -n mateapp
+kubectl port-forward deployment/todoapp 8080:80 -n mateapp
 ```
